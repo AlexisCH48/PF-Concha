@@ -1,12 +1,22 @@
-@import url(../scss/base/_reset.scss);
-@import url(../scss/variables/_variable.scss);
-@import url(../scss/layouts/_footer.scss);
-@import url(../scss/layouts/_header.scss);
-@import url(../scss/pages/_index.scss);
-@import url(../scss/pages/_nosotros.scss);
-@import url(../scss/pages/_noticias.scss);
-@import url(../scss/pages/_galeria.scss);
-@import url(../scss/pages/_contacto.scss);
-@import url(../scss/componentes/_botones.scss);
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  background-color: #E8E9ED;
+  scroll-behavior: smooth;
+}
+
+main h1, main h2 {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 45px;
+  text-shadow: 0px 2px 3px #000;
+}
 
 /*# sourceMappingURL=style.css.map */

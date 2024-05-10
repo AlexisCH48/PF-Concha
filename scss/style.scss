@@ -1,10 +1,13 @@
-@import url(../scss/base/_reset.scss);
-@import url(../scss/variables/_variable.scss);
-@import url(../scss/layouts/_footer.scss);
-@import url(../scss/layouts/_header.scss);
-@import url(../scss/pages/_index.scss);
-@import url(../scss/pages/_nosotros.scss);
-@import url(../scss/pages/_noticias.scss);
-@import url(../scss/pages/_galeria.scss);
-@import url(../scss/pages/_contacto.scss);
-@import url(../scss/componentes/_botones.scss);
+@import '../scss/variables/variable';
+@import '../scss/base/_fonts';
+@import '../scss/base/_reset';
+@import '../scss/base/_base';
+@import '../scss/layouts/_header';
+@import '../scss/layouts/_footer';
+@import '../scss/componentes/_botones';
+@import '../scss/pages/_index';
+@import '../scss/pages/_nosotros';
+@import '../scss/pages/_noticias';
+@import '../scss/pages/_galeria';
+@import '../scss/pages/_contacto';
+

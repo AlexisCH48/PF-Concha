@@ -1,0 +1,30 @@
+// navbar
+header{
+    padding-top: 50px;
+
+    .navbar{
+        background-color: $color-layouts;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .navbar-brand{
+        color: $color-texto !important;
+        font-size: 40px;
+    }
+
+    .navbar-toggler{
+        color: $color-texto !important;
+        border: none;
+    }
+
+    .nav-link{
+        color: $color-texto !important;
+    }
+
+    .nav-item{
+        margin: 20px;
+    }
+}

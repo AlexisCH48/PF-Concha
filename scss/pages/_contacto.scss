@@ -8,6 +8,14 @@
     margin: 15px;
     box-shadow: 1px 1px 3px $color-sombras;
     border-radius: 10px;
+    label{
+        font-size: 20px;
+        text-shadow: 1px 1px 2px $color-sombras;
+    }
+    input, textarea{
+        box-shadow: 1px 1px 2px $color-sombras;
+        border-radius: 5px;
+    }
     button{
         background-color: $color-boton !important;
         border: none;

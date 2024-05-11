@@ -180,6 +180,14 @@ header .nav-item {
   box-shadow: 1px 1px 3px #000;
   border-radius: 10px;
 }
+.formulario label {
+  font-size: 20px;
+  text-shadow: 1px 1px 2px #000;
+}
+.formulario input, .formulario textarea {
+  box-shadow: 1px 1px 2px #000;
+  border-radius: 5px;
+}
 .formulario button {
   background-color: #564e58 !important;
   border: none;

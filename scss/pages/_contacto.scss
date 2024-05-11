@@ -1,0 +1,23 @@
+// formulario de contacto
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 1px 1px 3px $color-sombras;
+    border-radius: 10px;
+    button{
+        background-color: $color-boton !important;
+        border: none;
+        font-size: 25px;
+        padding: 6px 20px;
+        box-shadow: 1px 2px 3px 1px $color-sombras;
+        &:hover{
+            background-color: $color-layouts !important;
+        }
+    }
+}
+
+

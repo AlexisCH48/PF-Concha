@@ -1,0 +1,85 @@
+/* footer */
+.pie-pagina{
+    background-color: $color-layouts;
+    color: $color-texto;
+    .item-1{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        // media queries footer 
+        @media only screen and (max-width: 480px){
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 30px;
+            padding: 35px 0px;
+        }
+        .caja{
+            figure{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a{
+                    i{
+                        color: $color-texto;
+                        font-size: 80px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 30px;
+                    }
+                }
+            }
+            span{
+                margin: 10px 0px 20px;
+                font-size: 30px;
+                font-weight: bold;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            p{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .redes{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                span{
+                    margin: 10px 0px 20px;
+                    font-size: 30px;
+                    font-weight: bold;
+                }
+                .iconos-redes{
+                    display: flex;
+                    justify-content:center ;
+                    align-items: center;
+                    a{
+                        i{
+                            color: $color-texto;
+                            font-size: 40px;
+                            margin: 0px 10px 0px 0px;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .item-2{
+        padding: 10px 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        i{
+            font-size: 20px;
+            margin: 0px 10px;
+        }
+    }
+}
+
+
+

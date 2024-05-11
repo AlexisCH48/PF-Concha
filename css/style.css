@@ -10,6 +10,9 @@ body {
   background-color: #E8E9ED;
   scroll-behavior: smooth;
 }
+body main {
+  padding-bottom: 60px;
+}
 body main h1, body main h2 {
   padding-top: 30px;
   padding-bottom: 40px;
@@ -41,6 +44,84 @@ header .nav-link {
 }
 header .nav-item {
   margin: 20px;
+}
+
+/* footer */
+.pie-pagina {
+  background-color: #252627;
+  color: #f1f1f3;
+}
+.pie-pagina .item-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+}
+@media only screen and (max-width: 480px) {
+  .pie-pagina .item-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}
+.pie-pagina .item-1 .caja figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .item-1 .caja figure a i {
+  color: #f1f1f3;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.pie-pagina .item-1 .caja span {
+  margin: 10px 0px 20px;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .item-1 .caja p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .item-1 .caja .redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .item-1 .caja .redes span {
+  margin: 10px 0px 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.pie-pagina .item-1 .caja .redes .iconos-redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .item-1 .caja .redes .iconos-redes a i {
+  color: #f1f1f3;
+  font-size: 40px;
+  margin: 0px 10px 0px 0px;
+  text-decoration: none;
+}
+.pie-pagina .item-2 {
+  padding: 10px 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.pie-pagina .item-2 i {
+  font-size: 20px;
+  margin: 0px 10px;
 }
 
 .card {

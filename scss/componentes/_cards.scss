@@ -1,0 +1,16 @@
+// cartas articulo destacados
+.card{
+    box-shadow: 1px 1px 3px $color-sombras;
+    .card-body{
+        a{
+            background-color: $color-boton !important;
+            border: none;
+        }
+        & a:hover{
+            background-color: $color-layouts !important;
+        }
+    } 
+}
+
+
+

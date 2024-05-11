@@ -19,7 +19,7 @@ body main h1, body main h2 {
 }
 
 header {
-  padding-top: 50px;
+  padding-bottom: 95px;
 }
 header .navbar {
   background-color: #252627;
@@ -41,6 +41,44 @@ header .nav-link {
 }
 header .nav-item {
   margin: 20px;
+}
+
+.card {
+  box-shadow: 1px 1px 3px #000;
+}
+.card .card-body a {
+  background-color: #564e58 !important;
+  border: none;
+}
+.card .card-body a:hover {
+  background-color: #252627 !important;
+}
+
+.jumbotron {
+  height: 600px;
+  background-image: url(../assets/img/imagen_principal.jpg);
+  color: #f1f1f3;
+  text-shadow: 0px 1px 5px #000;
+  background-position: center;
+  background-size: cover;
+}
+.jumbotron h1 {
+  padding-top: 85px;
+  font-size: 60px;
+}
+
+.ratio .embed-responsive-item {
+  box-shadow: 1px 1px 5px #000;
+  border-radius: 15px;
+}
+
+.carousel-inner {
+  box-shadow: 1px 1px 5px #000;
+  border-radius: 15px;
+}
+.carousel-inner .carousel-item img {
+  height: 80vh;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

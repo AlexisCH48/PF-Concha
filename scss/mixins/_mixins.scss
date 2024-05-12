@@ -1,3 +1,4 @@
+// mixin para flex
 @mixin flexbox ($direccion: null, $justificado: center, $alineacion: center ){
     display: flex;
     @if $direccion != null{
@@ -7,3 +8,21 @@
     align-items: $alineacion;
 }
 
+// mixin para grid
+@mixin grid($fila: null, $columna: null, $gap: null) {
+    display: grid;
+    @if $fila != null {
+        grid-template-rows: $fila;
+    }
+    @if $columna != null {
+        grid-template-columns: $columna;
+    }
+    @if $gap != null {
+        grid-gap: $gap;
+    }
+}
+
+@mixin grid-galeria($columna-inicio, $columna-fin, $fila-inicio, $fila-fin) {
+    grid-column: #{$columna-inicio} / #{$columna-fin};
+    grid-row: #{$fila-inicio} / #{$fila-fin};
+}

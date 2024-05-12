@@ -1,9 +1,6 @@
 // formulario de contacto
 .formulario{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flexbox ($direccion: column);
     padding: 15px;
     margin: 15px;
     box-shadow: 1px 1px 3px $color-sombras;

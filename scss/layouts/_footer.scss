@@ -3,14 +3,11 @@
     background-color: $color-layouts;
     color: $color-texto;
     .item-1{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 50px;
+        @include grid(repeat(), repeat(3, 1fr), 50px);
         // media queries footer 
         @media only screen and (max-width: 480px){
             width: 90%;
-            grid-template-columns: repeat(1, 1fr);
-            grid-gap: 30px;
+            @include grid(repeat(), repeat(1, 1fr), 30px);
             padding: 35px 0px;
         }
         .caja{

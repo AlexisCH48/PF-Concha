@@ -15,16 +15,12 @@
         }
         .caja{
             figure{
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include flexbox;
+                margin-top: 40px;
                 a{
                     i{
                         color: $color-texto;
                         font-size: 80px;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
                         margin-top: 30px;
                     }
                 }
@@ -33,35 +29,24 @@
                 margin: 10px 0px 20px;
                 font-size: 30px;
                 font-weight: bold;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
+                @include flexbox($direccion: column);
             }
             p{
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include flexbox;
             }
             .redes{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
+                @include flexbox($direccion: column);
                 span{
                     margin: 10px 0px 20px;
                     font-size: 30px;
                     font-weight: bold;
                 }
                 .iconos-redes{
-                    display: flex;
-                    justify-content:center ;
-                    align-items: center;
                     a{
                         i{
                             color: $color-texto;
                             font-size: 40px;
-                            margin: 0px 10px 0px 0px;
+                            margin: 0px 15px 0px 0px;
                             text-decoration: none;
                         }
                     }

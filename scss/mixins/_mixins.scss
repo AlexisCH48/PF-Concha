@@ -1,0 +1,9 @@
+@mixin flexbox ($direccion: null, $justificado: center, $alineacion: center ){
+    display: flex;
+    @if $direccion != null{
+        flex-direction: $direccion;
+    }
+    justify-content: $justificado;
+    align-items: $alineacion;
+}
+

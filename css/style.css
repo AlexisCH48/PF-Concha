@@ -22,7 +22,7 @@ body main h1, body main h2 {
 }
 
 header {
-  padding-bottom: 95px;
+  padding-bottom: 85px;
 }
 header .navbar {
   background-color: #252627;
@@ -221,13 +221,11 @@ header .nav-item {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 40px;
 }
 .pie-pagina .item-1 .caja figure a i {
   color: #f1f1f3;
   font-size: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 30px;
 }
 .pie-pagina .item-1 .caja span {
@@ -255,15 +253,10 @@ header .nav-item {
   font-size: 30px;
   font-weight: bold;
 }
-.pie-pagina .item-1 .caja .redes .iconos-redes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .pie-pagina .item-1 .caja .redes .iconos-redes a i {
   color: #f1f1f3;
   font-size: 40px;
-  margin: 0px 10px 0px 0px;
+  margin: 0px 15px 0px 0px;
   text-decoration: none;
 }
 .pie-pagina .item-2 {

@@ -1,16 +1,20 @@
 // caracteristicas base del body y main
 
 body{
-    background-color: $color-fondo;
     scroll-behavior: smooth;
+    background-image: linear-gradient(to bottom, $color-fondo, $color-degradado);
     main{
         padding-bottom: 60px;
         h1, h2{
-            padding-top: 30px;
+            padding-top: 40px;
             padding-bottom: 40px;
             text-align: center;
             font-size: 45px;
             text-shadow: 0px 2px 3px $color-sombras;
+            @media only screen and (max-width: 480px){
+                font-size: 35px;
+                overflow-wrap: anywhere;
+            }
         }
     } 
 }

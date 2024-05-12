@@ -7,7 +7,7 @@
     }
     @media only screen and (min-width: 768px){
         @include grid (repeat(), 1fr 1fr 1fr);
-        
+        // posicionamiento imagenes
         .item1{
             @include grid-galeria (1,3,1,2);
         }
@@ -49,31 +49,24 @@
     .item1{
         background-image: url(../assets/img/imagen_galeria1.jpg);
     }
-    
     .item2{
         background-image: url(../assets/img/imagen_galeria2.jpg);
     }
-    
     .item3{
         background-image: url(../assets/img/imagen_galeria3.jpg);
     }
-    
     .item4{
         background-image: url(../assets/img/imagen_galeria4.jpg);
     }
-    
     .item5{
         background-image: url(../assets/img/imagen_galeria5.jpg);
     }
-    
     .item6{
         background-image: url(../assets/img/imagen_galeria6.jpg);
     }
-    
     .item7{
         background-image: url(../assets/img/imagen_galeria7.jpg);
     }
-    
     .item8{
         background-image: url(../assets/img/imagen_galeria8.jpg);
     }

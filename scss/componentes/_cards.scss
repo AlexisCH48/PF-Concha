@@ -1,6 +1,9 @@
 // cartas articulo destacados
 .card{
-    box-shadow: 1px 1px 3px $color-sombras;
+    @extend %shadow-radius;
+    img{
+        border-radius: 10px;
+    }
     .card-body{
         a{
             background-color: $color-boton !important;

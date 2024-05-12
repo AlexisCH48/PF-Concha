@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.carousel-inner, .ratio .embed-responsive-item, .card {
+  box-shadow: 1px 1px 5px #000;
+  border-radius: 15px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,18 +12,24 @@
 }
 
 body {
-  background-color: #E8E9ED;
   scroll-behavior: smooth;
+  background-image: linear-gradient(to bottom, #f4f4f4, #515050);
 }
 body main {
   padding-bottom: 60px;
 }
 body main h1, body main h2 {
-  padding-top: 30px;
+  padding-top: 40px;
   padding-bottom: 40px;
   text-align: center;
   font-size: 45px;
   text-shadow: 0px 2px 3px #000;
+}
+@media only screen and (max-width: 480px) {
+  body main h1, body main h2 {
+    font-size: 35px;
+    overflow-wrap: anywhere;
+  }
 }
 
 header {
@@ -46,8 +57,8 @@ header .nav-item {
   margin: 20px;
 }
 
-.card {
-  box-shadow: 1px 1px 3px #000;
+.card img {
+  border-radius: 10px;
 }
 .card .card-body a {
   background-color: #564e58 !important;
@@ -67,18 +78,23 @@ header .nav-item {
 }
 .jumbotron h1 {
   padding-top: 85px;
-  font-size: 60px;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .jumbotron h1 {
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .jumbotron h1 {
+    font-size: 60px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1920px) {
+  .jumbotron h1 {
+    font-size: 70px;
+  }
 }
 
-.ratio .embed-responsive-item {
-  box-shadow: 1px 1px 5px #000;
-  border-radius: 15px;
-}
-
-.carousel-inner {
-  box-shadow: 1px 1px 5px #000;
-  border-radius: 15px;
-}
 .carousel-inner .carousel-item img {
   height: 80vh;
   width: 100%;
@@ -180,8 +196,6 @@ header .nav-item {
   align-items: center;
   padding: 15px;
   margin: 15px;
-  box-shadow: 1px 1px 3px #000;
-  border-radius: 10px;
 }
 .formulario label {
   font-size: 20px;

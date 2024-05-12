@@ -21,8 +21,21 @@
         grid-gap: $gap;
     }
 }
-
+// mixin para la galeria de imagenes
 @mixin grid-galeria($columna-inicio, $columna-fin, $fila-inicio, $fila-fin) {
     grid-column: #{$columna-inicio} / #{$columna-fin};
     grid-row: #{$fila-inicio} / #{$fila-fin};
+}
+
+//texto banner
+@mixin texto-responsivo($small:50px, $medium:60px, $large:70px) {
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+        font-size: $small;
+    }
+    @media only screen and (min-width: 481px) and (max-width: 1024px) {
+        font-size: $medium;
+    }
+    @media only screen and (min-width: 1025px) and (max-width: 1920px) {
+        font-size: $large;
+    }
 }

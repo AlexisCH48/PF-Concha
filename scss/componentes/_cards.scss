@@ -5,6 +5,9 @@
         border-radius: 10px;
     }
     .card-body{
+        h3{
+            @extend %font-size-card;
+        }
         a{
             background-color: $color-boton !important;
             border: none;

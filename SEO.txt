@@ -1,0 +1,5 @@
+*optimización para motores de búsqueda*
+1° agregue las etiquetas meta a todas las paginas del sitio con sus corresporndientes descripcione y keywords
+2° corregi las etiquetas h (titulos) para que no quedaran numeradas erróneamente
+3° agregue el texto descriptivo a las imágenes
+4° realice compresión en la imágenes
